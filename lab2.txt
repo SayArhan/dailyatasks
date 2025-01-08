@@ -1,0 +1,52 @@
+1. Using input() function take one number from the user and using ternary operators
+check whether the number is even or odd
+
+# Taking input from the user
+number = int(input("Enter a number: "))
+
+# Using ternary operator to check if the number is even or odd
+result = "Even" if number % 2 == 0 else "Odd"
+
+# Printing the result
+print(f"The number {number} is {result}.")
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Using input function take two number and then swap the number
+
+# Taking two numbers as input from the user
+first_number = float(input("Enter the first number: "))
+second_number = float(input("Enter the second number: "))
+
+# Swapping the numbers
+first_number, second_number = second_number, first_number
+
+# Printing the swapped numbers
+print(f"The first number after swapping: {first_number}")
+print(f"The second number after swapping: {second_number}")
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Write a Program to Convert Kilometers to Miles
+
+# Taking the distance in kilometers as input from the user
+distance_in_kilometers = float(input("Enter the distance in kilometers: "))
+
+# Converting kilometers to miles
+distance_in_miles = distance_in_kilometers * 0.621371
+
+# Printing the result
+print(f"The distance in miles is: {distance_in_miles}")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Find the Simple Interest on Rs. 200 for 5 years at 5% per year/user input 
+
+# Taking user input for principal amount, rate of interest, and time period
+principal_amount = float(input("Enter the principal amount (in Rs.):200 "))
+rate_of_interest = float(input("Enter the rate of interest (in %):5 "))
+time_period = float(input("Enter the time period (in years):5 "))
+
+# Calculating the Simple Interest
+simple_interest = (principal_amount * rate_of_interest * time_period) / 100
+
+# Printing the result
+print(f"The Simple Interest is: Rs. {simple_interest}")
+
+
+
+
