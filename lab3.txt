@@ -1,11 +1,11 @@
-1. Python program to check leap year
+#1. Python program to check leap year
 year = int(input("Enter the year: "))
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     print(f"{year} is a leap year.")
 else:
     print(f"{year} is not a leap year.")
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-2. Python program to find the largest among three numbers
+#2. Python program to find the largest among three numbers
 number1 = int(input("Enter the first number: "))
 number2 = int(input("Enter the second number: "))
 number3 = int(input("Enter the third number: "))
@@ -18,7 +18,7 @@ else:
     print(f"{number3} is the largest number.")
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3. Python program to check if a number is positive, negative, or zero
+#3. Python program to check if a number is positive, negative, or zero
 number = int(input("Enter the number: "))
 
 if number == 0:
@@ -29,7 +29,7 @@ else:
     print("The number is negative.")
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4. Toy Vendor Program
+#4. Toy Vendor Program
 product_code = int(input("Enter the product code (1 for Battery, 2 for Key-based, 3 for Electrical): "))
 order_amount = float(input("Enter the order amount: "))
 
@@ -46,7 +46,7 @@ print(f"The net amount after discount is Rs. {net_amount}.")
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-5. Transport fare calculation
+#5. Transport fare calculation
 distance = float(input("Enter the distance traveled (in km): "))
 
 if 1 <= distance <= 50:
