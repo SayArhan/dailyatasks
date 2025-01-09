@@ -1,4 +1,4 @@
-1)Calculate the multiplication and sum of two numbers
+#1)Calculate the multiplication and sum of two numbers
 
 #Accepting input from the user
 number1= float(input("Enter first number: "))
@@ -15,7 +15,7 @@ print(f"The addition of {number1} and {number2} is : {addition}")
 
 --------------------------------------------------------------------------------------------
 
-2)Declare two variables and print that which variable is largest using ternary operators
+#2)Declare two variables and print that which variable is largest using ternary operators
 
 #Accepting input from the user
 number1= float(input("Enter first number: "))
@@ -28,7 +28,7 @@ largest= number1 if number1>number2 else number2
 print(f"The largest number between {number1} and {number2} is {largest}")
 --------------------------------------------------------------------------------------------
 
-3) Python program to convert the temperature in degree centigrade to Fahrenheit
+#3) Python program to convert the temperature in degree centigrade to Fahrenheit
 #Accepting the temperature from the user in °C 
 celsius= float(input("Enter temperature in Celsius: "))
 
@@ -39,7 +39,7 @@ fahrenheit= (9/5) * celsius + 32
 print(f"{celsius}°c is equal to {fahrenheit}°F")
 
 --------------------------------------------------------------------------------------------
-4. Python program to find the area of a triangle whose sides are given
+#4. Python program to find the area of a triangle whose sides are given
 # Input the lengths of the sides of the triangle
 side1 = float(input("Enter the length of the first side: "))
 side2 = float(input("Enter the length of the second side: "))
