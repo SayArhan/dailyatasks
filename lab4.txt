@@ -1,0 +1,58 @@
+
+# 1. Division function with error handling
+
+def divide(a, b):
+  """Divides two numbers and handles division by zero."""
+  if b == 0:
+    return "Cannot divide by zero"
+  else:
+    return a / b
+
+# Get input from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Calculate and display the result
+result = divide(num1, num2)
+print("The result of the division is:", result)
+
+
+# 2. Square function
+
+def square(number):
+  """Calculates the square of a given number."""
+  return number ** 2
+
+# Get input from the user
+num = float(input("Enter a number: "))
+
+# Calculate and display the square
+result = square(num)
+print("The square of", num, "is:", result)
+
+
+# 3. Finding maximum and minimum from a list
+
+numbers = [22, 46, 11, 75, 37]
+
+# Find and display the maximum and minimum
+max_num = max(numbers)
+min_num = min(numbers)
+print("Maximum number:", max_num)
+print("Minimum number:", min_num)
+
+
+# 4. Converting name to lowercase
+
+name = input("Enter your name: ")
+lowercase_name = name.lower()
+print("Your name in lowercase:", lowercase_name)
+
+
+# 5. Lambda function for checking number sign
+
+check_number = lambda x: 'Positive' if x > 0 else 'Negative' if x < 0 else 'Zero'
+
+# Test the lambda function
+num = float(input("Enter a number: "))
+print(f"The number {num} is: {check_number(num)}")
